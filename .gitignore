@@ -1,2 +1,6 @@
 # Ignore Python virtual environment
 .venv/
+pretraining_dataset/
+
+# Ignore pretraning_dataset folder
+pretraning_dataset/
