@@ -1,0 +1,30 @@
+2025-09-08 03:41:21,887 INFO    MainThread:23556 [wandb_init.py:setup_run_log_directory():686] Logging user logs to d:\SEM 7\CVProject\waste_segregation\wandb\run-20250908_034121-tt3ldg1t\logs\debug.log
+2025-09-08 03:41:21,887 INFO    MainThread:23556 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to d:\SEM 7\CVProject\waste_segregation\wandb\run-20250908_034121-tt3ldg1t\logs\debug-internal.log
+2025-09-08 03:41:21,887 INFO    MainThread:23556 [wandb_init.py:monkeypatch_ipython():605] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000021B4E1A1C00>
+2025-09-08 03:41:21,887 INFO    MainThread:23556 [wandb_init.py:init():813] calling init triggers
+2025-09-08 03:41:21,887 INFO    MainThread:23556 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'model': 'RandomForest', 'n_estimators': 500, 'max_depth': None, 'class_weight': 'balanced_subsample', 'features': ['BoVW512', 'HOG~34600', 'HSV51'], 'scaler': 'StandardScaler(with_mean=False)', '_wandb': {}}
+2025-09-08 03:41:25,729 INFO    MainThread:23556 [wandb_init.py:init():854] starting backend
+2025-09-08 03:41:25,730 INFO    MainThread:23556 [wandb_init.py:init():857] sending inform_init request
+2025-09-08 03:41:25,731 INFO    MainThread:23556 [wandb_init.py:init():865] backend started and connected
+2025-09-08 03:41:25,733 INFO    MainThread:23556 [wandb_run.py:_label_probe_notebook():1318] probe notebook
+2025-09-08 03:41:25,746 INFO    MainThread:23556 [wandb_run.py:_label_probe_notebook():1328] Unable to probe notebook: 'charmap' codec can't decode byte 0x81 in position 2105945: character maps to <undefined>
+2025-09-08 03:41:25,746 INFO    MainThread:23556 [wandb_init.py:init():936] updated telemetry
+2025-09-08 03:41:25,808 INFO    MainThread:23556 [wandb_init.py:init():960] communicating run to backend with 90.0 second timeout
+2025-09-08 03:41:26,586 INFO    MainThread:23556 [wandb_init.py:init():1011] starting run threads in backend
+2025-09-08 03:41:26,647 INFO    MainThread:23556 [wandb_run.py:_console_start():2494] atexit reg
+2025-09-08 03:41:26,648 INFO    MainThread:23556 [wandb_run.py:_redirect():2342] redirect: wrap_raw
+2025-09-08 03:41:26,648 INFO    MainThread:23556 [wandb_run.py:_redirect():2411] Wrapping output streams.
+2025-09-08 03:41:26,648 INFO    MainThread:23556 [wandb_run.py:_redirect():2434] Redirects installed.
+2025-09-08 03:41:26,651 INFO    MainThread:23556 [wandb_init.py:init():1057] run started, returning control to user process
+2025-09-08 03:41:55,687 INFO    MainThread:23556 [wandb_run.py:_config_callback():1380] config_cb ('_wandb', 'visualize', 'val_confusion_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'val_confusion_matrix_table'}], 'fields': []}]}]}}} None
+2025-09-08 03:42:03,583 INFO    MainThread:23556 [wandb_init.py:_post_run_cell_hook():575] [no run ID] resuming backend
+2025-09-08 03:42:16,641 INFO    MainThread:23556 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-09-08 03:42:16,641 INFO    MainThread:23556 [wandb_init.py:_pre_run_cell_hook():564] [no run ID] pausing backend
+2025-09-08 03:42:16,649 INFO    MainThread:23556 [wandb_run.py:_finish():2260] finishing run diptosen2017-svkm-s-narsee-monjee-institute-of-managemen/cv-plastic-pretraining/tt3ldg1t
+2025-09-08 03:42:16,651 INFO    MainThread:23556 [jupyter.py:save_ipynb():404] not saving jupyter notebook
+2025-09-08 03:42:16,651 INFO    MainThread:23556 [wandb_init.py:_jupyter_teardown():590] cleaning up jupyter logic
+2025-09-08 03:42:16,651 INFO    MainThread:23556 [wandb_run.py:_atexit_cleanup():2459] got exitcode: 0
+2025-09-08 03:42:16,653 INFO    MainThread:23556 [wandb_run.py:_restore():2441] restore
+2025-09-08 03:42:16,653 INFO    MainThread:23556 [wandb_run.py:_restore():2447] restore done
+2025-09-08 03:42:20,556 INFO    MainThread:23556 [wandb_run.py:_footer_sync_info():3855] logging synced files

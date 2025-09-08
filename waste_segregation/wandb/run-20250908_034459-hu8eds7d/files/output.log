@@ -1,0 +1,19 @@
+Fitting RandomForest...
+OOB score: 0.8955
+
+Validation metrics (@ τ=0.5, plastic positive):
+              precision    recall  f1-score   support
+
+     plastic       0.44      0.99      0.61       222
+ not_plastic       0.67      0.01      0.03       288
+
+    accuracy                           0.44       510
+   macro avg       0.55      0.50      0.32       510
+weighted avg       0.57      0.44      0.28       510
+
+Confusion matrix (val):
+ [[220   2]
+ [284   4]]
+Saved RF to: D:\SEM 7\CVProject\artifacts_rf\rf_model.joblib
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+[34m[1mwandb[0m: [32m[41mERROR[0m The nbformat package was not found. It is required to save notebook history.

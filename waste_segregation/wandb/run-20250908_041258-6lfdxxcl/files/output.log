@@ -1,0 +1,19 @@
+Fitting RandomForest...
+OOB score: 0.8993
+
+Chosen τ on val (plastic prob): 0.05  -> P_plastic=0.313, R_plastic=0.468, F1_plastic=0.375
+
+Validation @ chosen τ (plastic positive):
+              precision    recall  f1-score   support
+
+     plastic       0.31      0.47      0.38       222
+ not_plastic       0.34      0.21      0.26       288
+
+    accuracy                           0.32       510
+   macro avg       0.33      0.34      0.32       510
+weighted avg       0.33      0.32      0.31       510
+
+Confusion matrix (val):
+ [[104 118]
+ [228  60]]
+Saved RF to: D:\SEM 7\CVProject\artifacts_rf\rf_model.joblib

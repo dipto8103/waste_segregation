@@ -1,0 +1,24 @@
+Fitting RandomForest...
+OOB score: 0.8955
+
+Validation metrics (@ τ=0.5, plastic positive):
+d:\SEM 7\CVProject\.venv\lib\site-packages\sklearn\metrics\_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+d:\SEM 7\CVProject\.venv\lib\site-packages\sklearn\metrics\_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+d:\SEM 7\CVProject\.venv\lib\site-packages\sklearn\metrics\_classification.py:1731: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+              precision    recall  f1-score   support
+
+     plastic       0.00      0.00      0.00       222
+ not_plastic       0.56      1.00      0.72       288
+
+    accuracy                           0.56       510
+   macro avg       0.28      0.50      0.36       510
+weighted avg       0.32      0.56      0.41       510
+
+Confusion matrix (val):
+ [[  0 222]
+ [  0 288]]
+Saved RF to: D:\SEM 7\CVProject\artifacts_rf\rf_model.joblib
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.

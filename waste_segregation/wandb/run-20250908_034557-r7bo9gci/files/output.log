@@ -1,0 +1,53 @@
+Fitting RandomForest...
+OOB score: 0.8955
+
+Validation metrics (@ τ=0.01, plastic positive):
+              precision    recall  f1-score   support
+
+     plastic       0.44      0.99      0.61       222
+ not_plastic       0.67      0.01      0.03       288
+
+    accuracy                           0.44       510
+   macro avg       0.55      0.50      0.32       510
+weighted avg       0.57      0.44      0.28       510
+
+Confusion matrix (val):
+ [[220   2]
+ [284   4]]
+Saved RF to: D:\SEM 7\CVProject\artifacts_rf\rf_model.joblib
+No τ reached precision≥0.75. Using F1-optimal τ=0.015  F1=0.607
+
+Validation @ chosen τ:
+              precision    recall  f1-score   support
+
+     plastic       0.44      0.99      0.61       222
+ not_plastic       0.73      0.03      0.05       288
+
+    accuracy                           0.45       510
+   macro avg       0.58      0.51      0.33       510
+weighted avg       0.60      0.45      0.29       510
+
+Confusion matrix (val):
+ [[219   3]
+ [280   8]]
+Sampling SIFT for codebook:  13%|█▎        | 306/2374 [00:10<01:12, 28.69it/s]
+Collected descriptors for codebook: (200251, 128)
+Saved codebook to: D:\SEM 7\CVProject\features_bovw_sift
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+train BoVW saved: (2374, 2048) labels: (2374,)
+val BoVW saved: (510, 2048) labels: (510,)
+test BoVW saved: (507, 2048) labels: (507,)
+train HOG saved: (2374, 34596) labels: (2374,)
+val HOG saved: (510, 34596) labels: (510,)
+test HOG saved: (507, 34596) labels: (507,)
+train HSV saved: (2374, 51) labels: (2374,)
+val HSV saved: (510, 51) labels: (510,)
+test HSV saved: (507, 51) labels: (507,)
+train HSV saved: (2374, 51) labels: (2374,)
+val HSV saved: (510, 51) labels: (510,)
+test HSV saved: (507, 51) labels: (507,)
+Shapes:
+  train: (2374, 36695) (2374,)
+  val  : (510, 36695) (510,)
+  test : (507, 36695) (507,)
+Scaled shapes: (2374, 36695) (510, 36695) (507, 36695)

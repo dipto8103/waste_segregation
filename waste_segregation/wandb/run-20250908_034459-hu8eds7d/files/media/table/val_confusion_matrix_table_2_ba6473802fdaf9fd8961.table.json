@@ -1,0 +1,1 @@
+{"columns": ["Actual", "Predicted", "nPredictions"], "data": [["plastic", "plastic", 220.0], ["plastic", "not_plastic", 2.0], ["not_plastic", "plastic", 284.0], ["not_plastic", "not_plastic", 4.0]]}

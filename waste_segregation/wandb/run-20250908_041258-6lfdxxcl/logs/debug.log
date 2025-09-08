@@ -1,0 +1,19 @@
+2025-09-08 04:12:58,134 INFO    MainThread:23556 [wandb_init.py:setup_run_log_directory():686] Logging user logs to d:\SEM 7\CVProject\waste_segregation\wandb\run-20250908_041258-6lfdxxcl\logs\debug.log
+2025-09-08 04:12:58,135 INFO    MainThread:23556 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to d:\SEM 7\CVProject\waste_segregation\wandb\run-20250908_041258-6lfdxxcl\logs\debug-internal.log
+2025-09-08 04:12:58,135 INFO    MainThread:23556 [wandb_init.py:monkeypatch_ipython():605] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000021A8E7F3EE0>
+2025-09-08 04:12:58,135 INFO    MainThread:23556 [wandb_init.py:init():813] calling init triggers
+2025-09-08 04:12:58,135 INFO    MainThread:23556 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'model': 'RandomForest', 'n_estimators': 800, 'max_depth': None, 'class_weight': 'balanced', 'features': ['BoVW512', 'HOG~34600', 'HSV51'], 'scaler': 'StandardScaler(with_mean=False)', '_wandb': {}}
+2025-09-08 04:13:02,591 INFO    MainThread:23556 [wandb_init.py:init():854] starting backend
+2025-09-08 04:13:02,592 INFO    MainThread:23556 [wandb_init.py:init():857] sending inform_init request
+2025-09-08 04:13:02,593 INFO    MainThread:23556 [wandb_init.py:init():865] backend started and connected
+2025-09-08 04:13:02,595 INFO    MainThread:23556 [wandb_run.py:_label_probe_notebook():1318] probe notebook
+2025-09-08 04:13:02,612 INFO    MainThread:23556 [wandb_init.py:init():936] updated telemetry
+2025-09-08 04:13:02,653 INFO    MainThread:23556 [wandb_init.py:init():960] communicating run to backend with 90.0 second timeout
+2025-09-08 04:13:03,343 INFO    MainThread:23556 [wandb_init.py:init():1011] starting run threads in backend
+2025-09-08 04:13:03,402 INFO    MainThread:23556 [wandb_run.py:_console_start():2494] atexit reg
+2025-09-08 04:13:03,402 INFO    MainThread:23556 [wandb_run.py:_redirect():2342] redirect: wrap_raw
+2025-09-08 04:13:03,402 INFO    MainThread:23556 [wandb_run.py:_redirect():2411] Wrapping output streams.
+2025-09-08 04:13:03,402 INFO    MainThread:23556 [wandb_run.py:_redirect():2434] Redirects installed.
+2025-09-08 04:13:03,402 INFO    MainThread:23556 [wandb_init.py:init():1057] run started, returning control to user process
+2025-09-08 04:13:45,418 INFO    MainThread:23556 [wandb_init.py:_post_run_cell_hook():575] [no run ID] resuming backend
