@@ -1,0 +1,1 @@
+waste_segregation/*.ipynb filter=lfs diff=lfs merge=lfs -text
